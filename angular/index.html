@@ -1,0 +1,15 @@
+<html ng-app="app">
+<head>
+  <script src="angular.min.js"></script>
+  <script src="app.js"></script>
+</head>
+<body ng-controller="Demo">
+
+<ul>
+  <li ng-repeat="node in nodes">
+    {{ node.title[0].value }}
+  </li>
+</ul>
+
+</body>
+</html>
